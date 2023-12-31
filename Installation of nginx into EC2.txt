@@ -1,0 +1,28 @@
+-----Installation of nginx into EC2 Instance-----
+1. Login as root user: 
+   command: Sudo -i
+
+2. Update Package Repository:
+   apt-get update
+
+3. Install NGINX:
+   apt-get install nginx
+
+4. Nginx is install or not:
+   ngnix -t
+
+5. Services are availble or not:
+   service nginx status
+    
+6.  To check it is working on localhost:
+    curl localhost
+  
+7.  To go inside index.html file:
+    cd /var/www/html/
+   
+8.  To edit the index.html file:
+    echo "welcome ayush raj" index.nginx-debian.html 
+  
+9.  To check the edited file:
+    curl localhost
+
